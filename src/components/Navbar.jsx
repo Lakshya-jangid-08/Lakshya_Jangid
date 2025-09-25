@@ -65,7 +65,7 @@ export default function Navbar({ darkMode, setDarkMode }) {
               {darkMode ? '☀️' : '🌙'}
             </motion.button> */}
             
-            <motion.button 
+            <motion.a
               className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 lg:px-6 lg:py-2 rounded-lg font-medium hover:shadow-lg transition-all duration-300 text-sm lg:text-base"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -75,7 +75,7 @@ export default function Navbar({ darkMode, setDarkMode }) {
               href={`#contact`}
             >
               Let's Talk
-            </motion.button>
+            </motion.a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -132,7 +132,7 @@ export default function Navbar({ darkMode, setDarkMode }) {
                 {item}
               </motion.a>
             ))}
-            <motion.button 
+            <motion.a 
               className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg font-medium text-center"
               initial={{ opacity: 0, y: 20 }}
               animate={{ 
@@ -144,7 +144,7 @@ export default function Navbar({ darkMode, setDarkMode }) {
               href={`#contact`}
             >
               Let's Talk
-            </motion.button>
+            </motion.a>
           </div>
         </motion.div>
       </div>
