@@ -17,4 +17,4 @@ Welcome to my portfolio website!
 
 - Email: thelakshya31.com  
 - GitHub: [Lakshya-Jangid](https://github.com/Lakshya-jangid-08)  
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/lakshya-jangid-0562502a2/)
+- LinkedIn: [Lakshya-Jangid](https://www.linkedin.com/in/lakshya-jangid-0562502a2/)
