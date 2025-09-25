@@ -72,6 +72,7 @@ export default function Navbar({ darkMode, setDarkMode }) {
               transition={{ duration: 0.6, delay: 0.9 }}
               whileHover={{ scale: 1.05, boxShadow: "0 10px 25px rgba(59, 130, 246, 0.3)" }}
               whileTap={{ scale: 0.95 }}
+              href={`#contact`}
             >
               Let's Talk
             </motion.button>
@@ -140,6 +141,7 @@ export default function Navbar({ darkMode, setDarkMode }) {
               }}
               transition={{ duration: 0.3, delay: 0.5 }}
               onClick={() => setIsMenuOpen(false)}
+              href={`#contact`}
             >
               Let's Talk
             </motion.button>
