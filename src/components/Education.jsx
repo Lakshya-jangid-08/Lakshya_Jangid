@@ -16,7 +16,7 @@ export default function Education() {
       status: "Current"
     },
     {
-      degree: "Higher Secondary 12th",
+      degree: "Senior Secondary Education ( 12th )",
       institution: "Rajasthan State Board (RBSE)",
       period: "2021 - 2022",
       description: "Completed higher secondary education with Science stream, focusing on Mathematics, Physics, Biology, and Chemistry.",
@@ -24,7 +24,7 @@ export default function Education() {
       status: "Completed"
     },
     {
-      degree: "Secondary School Certificate (10th)",
+      degree: "Secondary Education ( 10th )",
       institution: "Rajasthan State Board (RBSE)", 
       period: "2019 - 2020",
       description: "Completed Secondary Education with outstanding academic performance across all subjects.",
